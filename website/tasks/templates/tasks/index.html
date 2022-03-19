@@ -1,0 +1,17 @@
+{% extends "tasks/layout.html" %}
+
+{%block body%}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'tasks/styles2.css' %}">
+    <div style="text-align:center">    
+        <a href="{% url 'tasks:add'%}">Add New Task</a>
+        <!-- more links here -->
+      </div>
+    <ol>
+        {%for task in tasks%}
+            <li>{{task}}</li>
+        {%empty%}
+            <li>no tasks yet</li>
+        {%endfor%}
+    </ol>  
+{% endblock %}

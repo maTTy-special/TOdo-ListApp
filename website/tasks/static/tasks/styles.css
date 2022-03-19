@@ -1,0 +1,33 @@
+h1{
+    font-family: Georgia;
+    color: yellow;
+    text-align: center;
+}
+body{
+    background-color: pink;
+}
+ul{
+    color: black;
+    text-align: center;
+    font-family: monospace;
+}
+a{
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    
+    
+}
+form{
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+input{
+    color:green;
+    background-color: black;
+}
+#submit{
+    color: red;
+    background-color: chartreuse;
+
+}
